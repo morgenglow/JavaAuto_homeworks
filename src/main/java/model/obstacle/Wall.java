@@ -1,6 +1,6 @@
-public class Wall {
-    int height;
+package model.obstacle;
 
+public class Wall extends Obstacle {
     public Wall(int height) {
         this.height = height;
     }
